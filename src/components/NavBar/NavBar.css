@@ -1,0 +1,29 @@
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+}
+
+#navbar ul {
+    padding:0;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-content: space-evenly;
+
+}
+#navbar ul li {
+    padding: 50px;
+}
+
+#cartwidget {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#cartwidget img {
+    width: 100px;
+}
