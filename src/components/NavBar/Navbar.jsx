@@ -4,7 +4,7 @@ import "./NavBar.css"
 const Navbar = () => {
   return (
     <div id="navbar">
-        <h1>ECOMMERCE</h1>
+        <h1>E-COMMERCE</h1>
         <ul>
             <li>
                 <a href="">prod1</a>
