@@ -2,7 +2,7 @@ import "./ItemListContainer.css"
 
 const ItemListContainer = ({ saludo }) => {
   return (
-    <div id="itemlistcontainer">
+    <div className="itemlistcontainer">
       <p>{ saludo }</p>
     </div>
   );

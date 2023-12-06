@@ -1,11 +1,11 @@
-#navbar {
+.navBar {
     display: flex;
     flex-direction: row;
     justify-content:space-around;
     align-items: center;
 }
 
-#navbar ul {
+.navBar ul {
     padding:0;
     list-style: none;
     text-decoration: none;
@@ -14,16 +14,6 @@
     align-content: space-evenly;
 
 }
-#navbar ul li {
+.navBar ul li {
     padding: 50px;
-}
-
-#cartwidget {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-#cartwidget img {
-    width: 100px;
 }

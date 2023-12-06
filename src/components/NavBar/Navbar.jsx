@@ -1,9 +1,9 @@
-import { CartWidget } from "./CartWidget"
+import { CartWidget } from "./CartWidget/CartWidget.jsx"
 import "./NavBar.css"
 
 const Navbar = () => {
   return (
-    <div id="navbar">
+    <div className="navBar">
         <h1>E-COMMERCE</h1>
         <ul>
             <li>
