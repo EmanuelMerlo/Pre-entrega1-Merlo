@@ -1,11 +1,12 @@
 import Navbar from "./components/NavBar/Navbar";
 import ItemListContainer from "./components/ItemListContariner/ItemListContainer";
+import "./index.css"
 
 function App() {
   return (
-      <div id="App">
+      <div className="app">
         <Navbar />
-        <ItemListContainer saludo = "Bienvenidos al mejor e-commerce" />
+        <ItemListContainer saludo = "Bienvenidos a InnoGizmo" />
       </div>
   );
 }

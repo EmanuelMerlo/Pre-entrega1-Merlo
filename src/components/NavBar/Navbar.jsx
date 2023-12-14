@@ -4,19 +4,19 @@ import "./NavBar.css"
 const Navbar = () => {
   return (
     <div className="navBar">
-        <h1>E-COMMERCE</h1>
+        <h1>InnoGizmo</h1>
         <ul>
             <li>
-                <a href="">prod1</a>
+                <a href="">INICIO</a>
             </li>
             <li>
-                <a href="">prod2</a>
+                <a href="">PRODUCTOS</a>
             </li>
             <li>
-                <a href="">prod3</a>
+                <a href="">ACERCA DE NOSOTROS</a>
             </li>
             <li>
-                <a href="">prod4</a>
+                <a href="">CONTACTO</a>
             </li>
         </ul>
         <CartWidget/>
