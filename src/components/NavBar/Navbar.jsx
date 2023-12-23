@@ -1,14 +1,13 @@
-import { CartWidget } from "./CartWidget/CartWidget.jsx"
-import "./NavBar.css"
+import { CartWidget } from "../CartWidget/CartWidget.jsx"
+import "./NavBar.scss"
 
 const Navbar = () => {
   return (
-    <div className="navBar">
-        <h1>InnoGizmo</h1>
+    <div className="navbar">
+        <div className="brand">
+            <h1>SONY</h1>
+        </div>
         <ul>
-            <li>
-                <a href="">INICIO</a>
-            </li>
             <li>
                 <a href="">PRODUCTOS</a>
             </li>
