@@ -3,7 +3,7 @@ import "./ItemListContainer.scss"
 const ItemListContainer = ({ saludo }) => {
   return (
     <div className="itemlistcontainer">
-      <p>{ saludo }</p>
+      <h1>{ saludo }</h1>
     </div>
   );
 };

@@ -5,17 +5,20 @@ const Navbar = () => {
   return (
     <div className="navbar">
         <div className="brand">
-            <h1>SONY</h1>
+            <img src="https://www.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-common/resources/images/gnb-desktop-120x32.png" alt="Logo Samsung" />
         </div>
         <ul>
             <li>
-                <a href="">PRODUCTOS</a>
+                <a href="">CELULARES</a>
             </li>
             <li>
-                <a href="">ACERCA DE NOSOTROS</a>
+                <a href="">NOTEBOOKS</a>
             </li>
             <li>
-                <a href="">CONTACTO</a>
+                <a href="">ACCESORIOS</a>
+            </li>
+            <li>
+                <a href="">NOSOTROS</a>
             </li>
         </ul>
         <CartWidget/>
