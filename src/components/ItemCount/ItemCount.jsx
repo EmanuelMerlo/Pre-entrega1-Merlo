@@ -15,7 +15,7 @@ const ItemCount = ( {stock} ) => {
     }
 
   return (
-    <div className="itemcount">
+    <div className="itemcount container">
         <button onClick={sumar}>+</button>
         <p>{ contador }</p>
         <button onClick={restar}>-</button>
