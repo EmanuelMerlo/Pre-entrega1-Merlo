@@ -1,0 +1,15 @@
+.card {
+    border: 0px;    border-radius: 50px;
+    width: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        width: 40vh;
+    }
+    h3 {
+        text-align: center;
+    }
+}
